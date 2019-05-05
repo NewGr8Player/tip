@@ -1,5 +1,5 @@
 # 自写博客或笔记
-- [并发优化 - 降低锁颗粒]()
+- [并发优化 - 降低锁颗粒](https://github.com/flyleft/tip/blob/master/blog/并发优化%20-%20降低锁颗粒.md)
 - [数据一致性(一) - 接口调用一致性](https://github.com/flyleft/tip/blob/master/blog/数据一致性(一)%20-%20接口调用一致性.md)
 - [go、java对比](https://github.com/flyleft/tip/blob/master/blog/go、java对比.md)
 - [go使用struct tag实现类似于spring boot的yaml配置文件，源码：](https://github.com/flyleft/gprofile)
@@ -10,60 +10,55 @@
 - [java中使用pact做契约测试](blog/java中使用pact做契约测试.md)
 - [zuul性能调优-使用okhttp替代httpclient](blog/zuul性能调优-okhttp替代httpclient.md)
 - [使用spock编写spring-boot项目的单元测试](blog/使用spock编写spring-boot项目的单元测试.md)
+- [java中JNI的使用](https://github.com/flyleft/tip/blob/master/blog/java中JNI的使用.md)
 
 ---
 
 # 博客收藏
-- ####  分布式事务
-    1. [分布式理论(一) - CAP定理](https://juejin.im/post/5b26634b6fb9a00e765e75d1?utm_source=tuicool&utm_medium=referral)
-    2. [分布式理论(二) - BASE理论](https://juejin.im/post/5b2663fcf265da59a401e6f8)
-    3. [分布式理论(三) - 2PC协议](https://juejin.im/post/5b2664446fb9a00e4a53136e)
-    4. [分布式理论(四) - 3PC协议](https://juejin.im/post/5b26648e5188257494641b9f)
-    5. [分布式理论(五) - 一致性算法Paxos](https://juejin.im/post/5b2664bd51882574874d8a76)
-    6. [分布式理论(六) - 一致性协议Raft](https://juejin.im/post/5b2664e2f265da59584d8c90)
-    7. [聊聊分布式存储——图解Paxos](https://www.jianshu.com/p/002a357d5993?utm_source=tuicool&utm_medium=referral)
-    8. [Raft动画讲解](http://thesecretlivesofdata.com/raft/)
-    9. [GTS:微服务架构下分布式事务解决方案](https://zhuanlan.zhihu.com/p/37492435?utm_source=tuicool&utm_medium=referral)
-    10. [Gossip协议在Cassandra中的实现](https://juejin.im/entry/59900b585188257d86431847)
-    11. [servicecomb-saga设计文档，基于saga的数据一致性实现](https://github.com/apache/incubator-servicecomb-saga/blob/master/docs/design_zh.md)
+- [Linux下的I/O复用与epoll详解](https://www.cnblogs.com/lojunren/p/3856290.html)
+- [数据库事务隔离级别](https://juejin.im/post/5b90cbf4e51d450e84776d27?utm_source=tuicool&utm_medium=referral)
+- [微服务注册中心 Eureka 架构深入解读](https://www.infoq.cn/article/jlDJQ*3wtN2PcqTDyokh?utm_source=tuicool&utm_medium=referral)
+- [分布式Bitmap实践：Naix](https://juejin.im/post/5ba30de85188255c5442a34a)
+- [InnoDB并发如此高，原因竟然在这？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961444&idx=1&sn=830a93eb74ca484cbcedb06e485f611e&chksm=bd2d0db88a5a84ae5865cd05f8c7899153d16ec7e7976f06033f4fbfbecc2fdee6e8b89bb17b&scene=21#wechat_redirect)
+- [Redis高可用技术解决方案总结](http://dbaplus.cn/news-158-2182-1.html?utm_source=tuicool&utm_medium=referral)
+- [kafka的exactly once支持](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
+- [janus 性能优化与 JVM 调优实践](https://mp.weixin.qq.com/s/dbgLn55Ki9pfdEerbu7awg?utm_source=tuicool&utm_medium=referral)
+- [数据库两大神器【索引和锁】](https://juejin.im/post/5b55b842f265da0f9e589e79)
+- [HTTP缓存机制](https://juejin.im/post/5a1d4e546fb9a0450f21af23)
+- [完全吃透 TLS/SSL](https://juejin.im/post/5b305758e51d4558ce5ea0d9?utm_source=tuicool&utm_medium=referral)
+- [分布式理论(一) - CAP定理](https://juejin.im/post/5b26634b6fb9a00e765e75d1?utm_source=tuicool&utm_medium=referral)
+- [分布式理论(二) - BASE理论](https://juejin.im/post/5b2663fcf265da59a401e6f8)
+- [分布式理论(三) - 2PC协议](https://juejin.im/post/5b2664446fb9a00e4a53136e)
+- [分布式理论(四) - 3PC协议](https://juejin.im/post/5b26648e5188257494641b9f)
+- [分布式理论(五) - 一致性算法Paxos](https://juejin.im/post/5b2664bd51882574874d8a76)
+- [分布式理论(六) - 一致性协议Raft](https://juejin.im/post/5b2664e2f265da59584d8c90)
+- [聊聊分布式存储——图解Paxos](https://www.jianshu.com/p/002a357d5993?utm_source=tuicool&utm_medium=referral)
+- [Raft动画讲解](http://thesecretlivesofdata.com/raft/)
+- [GTS:微服务架构下分布式事务解决方案](https://zhuanlan.zhihu.com/p/37492435?utm_source=tuicool&utm_medium=referral)
+- [Gossip协议在Cassandra中的实现](https://juejin.im/entry/59900b585188257d86431847)
+- [一篇的比较全面的 RxJava2 方法总结](https://juejin.im/post/5b72f76551882561354462dd)
+- [RxJava2：背压和Flowable](https://juejin.im/post/5b759b9cf265da283719d187)
+- [RxJava2：使用 Subject](https://juejin.im/post/5b801dfa51882542cb409905)
 
-- #### 深度学习
-  1. [如何基于深度学习实现图像的智能审核?](http://www.cnblogs.com/meituantech/p/9321936.html)
-
-- #### java库
-  1. [一篇的比较全面的 RxJava2 方法总结](https://juejin.im/post/5b72f76551882561354462dd)
-  2. [RxJava2：背压和Flowable](https://juejin.im/post/5b759b9cf265da283719d187)
-  3. [RxJava2：使用 Subject](https://juejin.im/post/5b801dfa51882542cb409905)
-
-- #### 协议
-  1. [HTTP缓存机制](https://juejin.im/post/5a1d4e546fb9a0450f21af23)
-  2. [完全吃透 TLS/SSL](https://juejin.im/post/5b305758e51d4558ce5ea0d9?utm_source=tuicool&utm_medium=referral)
-
-- #### DevOps
-  1. [不完美的 K8S 与阿里的解决之道](https://mp.weixin.qq.com/s?__biz=MzU1OTAzNzc5MQ==&mid=2247486063&idx=1&sn=f97a361a9718f98f2ffa5fe6f3234070&chksm=fc1c265fcb6baf497b4d8a4733cd333577afba29aa8641ceb1d75465a8a8c43ee6d281dfca74&scene=21#wechat_redirect)
-
-- #### 数据库
-  1. [数据库两大神器【索引和锁】](https://juejin.im/post/5b55b842f265da0f9e589e79)
-  2. [Redis高可用技术解决方案总结](http://dbaplus.cn/news-158-2182-1.html?utm_source=tuicool&utm_medium=referral)
-  3. [4种事务的隔离级别，InnoDB如何巧妙实现？](https://mp.weixin.qq.com/s/x_7E2R2i27Ci5O7kLQF0UA?utm_source=tuicool&utm_medium=referral)
-  4. [InnoDB，select为啥会阻塞insert？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961471&idx=1&sn=da257b4f77ac464d5119b915b409ba9c&chksm=bd2d0da38a5a84b5fc1417667fe123f2fbd2d7610b89ace8e97e3b9f28b794ad147c1290ceea&scene=21#wechat_redirect)
-  5. [InnoDB并发如此高，原因竟然在这？](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961444&idx=1&sn=830a93eb74ca484cbcedb06e485f611e&chksm=bd2d0db88a5a84ae5865cd05f8c7899153d16ec7e7976f06033f4fbfbecc2fdee6e8b89bb17b&scene=21#wechat_redirect)
-  6. [美团针对 Redis Rehash 机制的探索和实践](http://www.cnblogs.com/meituantech/p/9376472.html)
-  7. [美图分布式Bitmap实践：Naix](https://juejin.im/post/5ba30de85188255c5442a34a)
-  8. [kafka的exactly once支持](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
-   
-
-
-- #### 架构
-  1. [日访问百亿级，如何架构并优化日志系统？](https://studygolang.com/articles/14273?utm_source=tuicool&utm_medium=referral)
-
-- #### JVM
-  1. [亿级网关 janus 性能优化与 JVM 调优实践](https://mp.weixin.qq.com/s/dbgLn55Ki9pfdEerbu7awg?utm_source=tuicool&utm_medium=referral)
 
 ---
 
-# 开源项目收集
-    
+# 开源
+- #### 并发
+  - *线程安全set*：`ConcurrentSkipListSet`、`CopyOnWriteArraySet`、`ConcurrentHashMap.newKeySet()`、`Collections.synchronizedSet(set)`
+   
+- 分布式技术
+  - *缓存穿透*: 请求去查询缓存数据库中根本就不存在的数据。解决方案: `缓存空值`、`BloomFilter`
+  - *缓存雪崩*: 缓存层不能提供服务，所有的请求都会达到存储层，存储层的调用量会暴增，造成存储层挂掉。解决方案: `缓存集群`、`本地缓存`、`限流`、`降级`
+  
+   
+- #### 算法和协议
+   1.  [Redlock算法: 使用Redis实现分布式锁的算法](https://github.com/redisson/redisson/wiki/8.-Distributed-locks-and-synchronizers)
+   2. [Snowflake: Twitter的分布式自增ID算法](https://github.com/twitter-archive/snowflake/releases/tag/snowflake-2010)
+ 
+- #### 数据一致性
+   1. [fescar: 阿里开源分布式事务解决方案](https://github.com/alibaba/fescar)
+       
 - #### 容器与devops
    1. [Knative：用于构建、部署和管理Serverless工作负载的Kubernetes框架](https://github.com/knative)
    2. [TAC：基于java的微服务容器，提供从业务代码编写、编译、发布、jar动态加载、运行等一系列常用开发流程的支持](https://github.com/alibaba/tac)
@@ -74,12 +69,17 @@
    7. [Kubernetes： 谷歌开源用于自动化部署，扩展和管理集装箱化应用程序的系统](https://kubernetes.io/)
 
 - #### goLang
-  1. [awesome-go: go开源项目收集](https://github.com/avelino/awesome-go)
+  1. [awesome-go: go的开源项目收集](https://github.com/avelino/awesome-go)
   2. [cobra: CLI命令行库，也可用于生成程序应用和命令行文件](https://github.com/spf13/cobra)
-  3. [machinery: Golang的分布式任务队列](https://github.com/RichardKnop/machinery)
+  3. [machinery: go的分布式任务队列](https://github.com/RichardKnop/machinery)
   4. [iris: 支持http2,websocket,MVC的高性能框架](https://github.com/kataras/iris)
-  5. [go-kit: Golang微服务开发工具集](https://github.com/go-kit/kit)
-  6. [protoactor-go: Golang的Actor模型并发库](https://github.com/AsynkronIT/protoactor-go)
+  5. [go-kit: go微服务开发工具集](https://github.com/go-kit/kit)
+  6. [protoactor-go:go的Actor模型并发库](https://github.com/AsynkronIT/protoactor-go)
+  7. [uber-go/dig: go依赖注入](https://github.com/uber-go/dig.git)
+  8. [pkg/errors: go异常处理库](https://github.com/pkg/errors.git)
+  9. [Dragonboat: 高性能raft库](https://github.com/lni/dragonboat)
+  10. [revive: go的代码质量检测工具](https://github.com/mgechev/revive)
+  11. [gotests: 快速生成单元测试的命令行工具](https://github.com/cweill/gotests)
   
 - #### 性能调优工具
    1. [TProfiler: 是一个阿里开源可以在生产环境长期使用的JVM性能分析工具](https://github.com/alibaba/TProfiler)
@@ -188,6 +188,10 @@
     3. [TestNG: 主要功能是覆盖范围更广的测试分类，如单元、功能性、端到端，一体化等](http://testng.org/doc/index.html)
     4. [greys-anatomy: Java问题在线诊断工具](https://github.com/oldmanpushcart/greys-anatomy)
     5. [jmh: 性能微基准测试工具](http://openjdk.java.net/projects/code-tools/jmh/)
+    6. [jmeter：Apache开发的基于Java的压力测试工具](https://jmeter.apache.org)
+    7. [Gatling: scala开发的开源功能强大的负载测试工具](https://github.com/gatling/gatling)
+    8. [ab: apache自带的简单压测工具](https://httpd.apache.org/docs/2.4/programs/ab.html)
+    9. [wrk: 开源HTTP压测工具](https://github.com/wg/wrk)
   
 - #### 序列化
     1. [FlatBuffers: 相较于Protocol Buffers，其更适用于移动设备](https://github.com/google/flatbuffers)
